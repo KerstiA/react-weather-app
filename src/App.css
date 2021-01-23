@@ -1,0 +1,12 @@
+body {
+  background-image: linear-gradient(to right, #fff1eb 0%, #ace0f9 100%);
+}
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.App footer {
+  font-size: 10px;
+  margin: 10px 0;
+}

@@ -1,0 +1,11 @@
+.Weather {
+  border: 1px solid #000000;
+}
+.Weather {
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: #7e7f80 0px 10px 10px 5px;
+  border-radius: 8px;
+  margin: 45px auto;
+  padding: 20px;
+  background-image: url(https://eskipaper.com/images/snow-background-11.jpg);
+}
