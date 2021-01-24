@@ -2,10 +2,27 @@
   border: 1px solid #000000;
 }
 .Weather {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lobster Two", cursive;
   box-shadow: #7e7f80 0px 10px 10px 5px;
   border-radius: 8px;
   margin: 45px auto;
   padding: 20px;
-  background-image: url(https://eskipaper.com/images/snow-background-11.jpg);
+  display: grid;
+  background-image: url(https://media.freestocktextures.com/cache/12/cf/12cf191f5dabfb4cb7f5313ef92b2775.jpg);
+}
+
+.Weather img {
+  width: 64px;
+  float: left;
+  display: block;
+}
+
+li {
+  list-style: none;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+ul {
+  padding: 0;
+  margin-top: 45px;
 }

@@ -8,6 +8,7 @@ export default function Weather() {
       <div className="row">
         <div className="col-6">
           <h2>Raasiku</h2>
+          <img src="https://ssl.gstatic.com/onebox/weather/64/snow_light.png" />
           <h3>8 °C</h3>
           <ul>
             <li>Mostly Cloudy</li>
