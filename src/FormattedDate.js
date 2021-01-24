@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function FormattedDate(props) {
-  console.log(props.date);
   let date = props.date.getDate();
   if (date < 10) {
     date = `0${date}`;
