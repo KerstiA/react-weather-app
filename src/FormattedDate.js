@@ -30,5 +30,9 @@ export default function FormattedDate(props) {
     hours = `0${hours}`;
   }
 
-  return `${date}/ ${month}/ ${year} ${hours}:${minutes}`;
+  return (
+    <div className="currenttime">
+      {date}/{month}/{year} {hours}:{minutes}
+    </div>
+  );
 }

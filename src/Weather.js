@@ -61,16 +61,7 @@ export default function Weather(props) {
             </form>
           </div>
           <div className="col-2">
-            <input
-              type="submit"
-              value="Search"
-              className="btn btn-primary w-80"
-            />
-          </div>
-          <div className="col-6">
-            <p>
-              “Don’t Let Yesterday Take Up Too Much Of Today.” – Will Rogers
-            </p>
+            <input type="submit" value="Search" className="btn btn-light" />
           </div>
         </div>
       </div>

@@ -6,9 +6,9 @@ export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <FormattedDate date={props.data.date} />
-
       <h2>{props.data.city}</h2>
       <img
+        id="mainicon"
         src={props.data.iconUrl}
         alt={props.data.description}
         class="float-left"

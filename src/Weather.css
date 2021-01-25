@@ -1,34 +1,32 @@
 .Weather {
-  border: 1px solid #000000;
-}
-.Weather {
+  border: thick double #3365d185;
   font-family: "Lobster Two", cursive;
-  box-shadow: #7e7f80 0px 10px 10px 5px;
-  border-radius: 8px;
-  margin: 45px auto;
+  box-shadow: #cb90e260 0px 5px 5px 2px;
+  border-radius: 40px;
+  margin: 45px auto 10px auto;
+  color: #0a0853;
   padding: 20px;
-  display: grid;
   background-image: url(https://media.freestocktextures.com/cache/12/cf/12cf191f5dabfb4cb7f5313ef92b2775.jpg);
 }
 
-.Weather img {
-  width: 70px;
-  float: left;
-  display: block;
+#mainicon {
+  width: 115px;
+  margin-right: 5px;
+  margin-left: 70px;
 }
 
 li {
   list-style: none;
-  font-size: 18px;
+  font-size: 22px;
   text-transform: capitalize;
 }
 ul {
   padding: 0;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 #cityTemp {
-  font-size: 64px;
+  font-size: 90px;
 }
 #celsius {
   color: #000000;
@@ -36,11 +34,22 @@ ul {
 
 h2 {
   font-size: 52px;
+  margin-top: 5px;
 }
-h4 {
-  font-size: 20px;
-}
+
 #units {
-  font-size: 20px;
-  margin-left: 10px;
+  font-size: 23px;
+  margin-left: 5px;
+  position: relative;
+  top: -38px;
+}
+
+input {
+  box-shadow: #cb90e260 0px 5px 5px 2px;
+}
+.btn,
+.form-control {
+  font-size: 14px;
+  font-weight: 100;
+  border-radius: 8px;
 }

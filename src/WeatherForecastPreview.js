@@ -26,13 +26,16 @@ export default function WeatherForecastPreview(props) {
       <div className="row">
         <div className="col-2">
           <img
+            id="secondaryicons"
             src={`http://openweathermap.org/img/wn/${props.data.weather[0].icon}@2x.png`}
             alt={props.data.weather[0].icon}
             class="float-left"
           />
         </div>
-        <div className="col-2">{day()}</div>
-        <div className="col-8">
+        <div className="col-2" id="weekDays">
+          {day()}
+        </div>
+        <div className="col-8" id="weatherInfo">
           {temperature()}
           <br />
           {wind()}km/h

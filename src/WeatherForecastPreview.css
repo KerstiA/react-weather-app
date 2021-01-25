@@ -1,0 +1,13 @@
+#weekDays {
+  font-size: 21px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#weatherInfo {
+  margin-top: 10px;
+}
+
+#secondaryicons {
+  width: 70px;
+}
