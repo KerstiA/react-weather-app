@@ -15,7 +15,6 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "homepage":"https://pensive-hoover-1c5259.netlify.app/",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
