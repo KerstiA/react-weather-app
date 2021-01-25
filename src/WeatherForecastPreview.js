@@ -1,4 +1,5 @@
 import React from "react";
+import "./WeatherForecastPreview.css";
 
 export default function WeatherForecastPreview(props) {
   function day() {
@@ -17,15 +18,26 @@ export default function WeatherForecastPreview(props) {
 
   function wind() {
     let wind = Math.round(props.data.wind.speed);
-    return `${wind}`;
+    return `Wind: ${wind}`;
   }
+
   return (
     <div className="WeatherForecast">
-      {day()}
-      <br />
-      {temperature()}
-      <br />
-      Wind: {wind()}km/h
+      <div className="row">
+        <div className="col-2">
+          <img
+            src={`http://openweathermap.org/img/wn/${props.data.weather[0].icon}@2x.png`}
+            alt={props.data.weather[0].icon}
+            class="float-left"
+          />
+        </div>
+        <div className="col-2">{day()}</div>
+        <div className="col-8">
+          {temperature()}
+          <br />
+          {wind()}km/h
+        </div>
+      </div>
     </div>
   );
 }
