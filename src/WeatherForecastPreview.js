@@ -29,7 +29,7 @@ export default function WeatherForecastPreview(props) {
             id="secondaryicons"
             src={`http://openweathermap.org/img/wn/${props.data.weather[0].icon}@2x.png`}
             alt={props.data.weather[0].icon}
-            class="float-left"
+            className="float-left"
           />
         </div>
         <div className="col-2" id="weekDays">
