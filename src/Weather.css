@@ -28,9 +28,6 @@ ul {
 #cityTemp {
   font-size: 90px;
 }
-#celsius {
-  color: #000000;
-}
 
 h2 {
   font-size: 52px;
@@ -38,10 +35,11 @@ h2 {
 }
 
 #units {
-  font-size: 23px;
-  margin-left: 5px;
+  font-size: 21px;
+  margin-left: 10px;
   position: relative;
   top: -38px;
+  cursor: pointer;
 }
 
 input {
@@ -52,4 +50,10 @@ input {
   font-size: 14px;
   font-weight: 100;
   border-radius: 8px;
+}
+
+span #activ {
+  font-weight: bold;
+  color: #0a0853;
+  cursor: auto;
 }
