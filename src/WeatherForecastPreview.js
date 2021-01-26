@@ -11,9 +11,9 @@ export default function WeatherForecastPreview(props) {
   }
 
   function temperature() {
-    let maxTemp = Math.round(props.data.main.temp_max);
-    let minTemp = Math.round(props.data.main.temp_min);
-    return `Max ${maxTemp}°C / Min ${minTemp}°C`;
+    let temp = Math.round(props.data.main.temp);
+    let feelsLike = Math.round(props.data.main.feels_like);
+    return `Temp ${temp}°C / Feels like ${feelsLike}°C`;
   }
 
   function wind() {
